@@ -11,7 +11,10 @@ const Cards = (props) => {
             <Grid container={3} justify="center">
                 <Grid item component={Card}>
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>Infected</Typography>
+                        <Typography color="textSecondary" gutterBottom>Infectados</Typography>
+                        <Typography variant="h5">Dados reais</Typography>
+                        <Typography color="textSecondary">Data atual</Typography>
+                        <Typography variant="body2">Casos ativos de COVID-19</Typography>
                     </CardContent>
                 </Grid>
             </Grid>
